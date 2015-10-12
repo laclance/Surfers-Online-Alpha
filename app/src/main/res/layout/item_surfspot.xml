@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="64dp"
+    android:layout_marginBottom="1dp"
+    android:background="@android:color/white"
+    android:baselineAligned="false">
+
+    <ImageView
+        android:id="@+id/surfspot_avatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_surf_spot"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/surfspot_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/surfspot_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

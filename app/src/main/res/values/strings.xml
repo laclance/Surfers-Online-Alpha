@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Surfers Online</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="home">Home</string>
+    <string name="groups">Groups</string>
+    <string name="friends">Friends</string>
+    <string name="surfspots">Surf Spots</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_add">Add</string>
+    <string name="title_activity_edit_surf_areas">EditSurfAreas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_edit_surf_spot">EditSurfSpotActivity</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="addSurfSpot">Add New Surf Spot</string>
+    <string name="editSurfSpot">Edit Existing Surf Spot</string>
+    <string name="addSurfArea">Add New Surf Area</string>
+    <string name="editSurfArea">Edit Existing Surf Area</string>
+    <string name="title_activity_login">Login</string>
+    <string name="instructions"> You have no surf spots, press the + symbol
+        in the top right ofthe screen to add an area.\n
+        \nSelect an item by clicking on it.
+        \nLong press on an item to edit it.
+        \nFling an item to delete it.
+        </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="createNewUser">Creating New User ...</string>
+    <string name="loggingIn">Logging in ...</string>
+    <string name="logout">Log out</string>
+    <string name="registerNew">Register New</string>
+    <string name="rememberMe">Remember me</string>
+</resources>
